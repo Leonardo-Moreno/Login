@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="js/bootstrap/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+
+
+    <title>Login</title>
+</head>
+
+<body>
+    <div id="particles-js"></div>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+                    <div class="card card-signin my-5">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Cadastrar</h5>
+                            <hr>
+                            <form class="form-signin" action="DadosUsuario.html">
+
+                                <div class="form-label-group">
+                                    <label>Nome</label>
+                                    <input type="email" id="" class="form-control" placeholder="Digite seu nome para continuar" required autofocus>
+
+                                </div>
+
+                                <div class="form-label-group">
+                                    <label for="inputPassword">Idade</label>
+                                    <input type="date" id="" class="form-control" placeholder="3333333333" required>
+
+                                </div>
+
+                                <div class="form-label-group">
+                                    <label for="inputPassword">Telefone</label>
+                                    <input type="tel" id="" class="form-control" placeholder="(11)9999-9999" required>
+                                </div>
+
+                                
+                                <div class="form-label-group">
+                                    <label for="inputPassword">Celular</label>
+                                    <input type="" id="" class="form-control" placeholder="(11)9999-9999" required>
+                                </div>
+
+                                <div class="form-label-group">
+                                    <label for="inputPassword"> CPF</label>
+                                    <input type="tel" id="" class="form-control" placeholder="" required>
+
+                                </div>
+                                <a href="DadosUsuario.html"><button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">Entrar</button></a>
+                                <hr class="my-4">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="js/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery/jquery.js"></script>
+    <script src="js/jquery/jquery.min.js"></script>
+    <script src="js/particles/particles.js"></script>
+    <script src="js/particles/app.js"></script>
+    <script>
+        $(document).ready(function() {
+            particlesJS("particles-js", {
+                "particles": {
+                    "number": {
+                        "value": 80
+                    },
+                    "color": {
+                        "value": "#f9f3f4"
+                    },
+                    "shape": {
+                        "type": "circle",
+                        "stroke": {
+                            "width": 1,
+                            "color": "#ccc"
+                        }
+                    },
+                    "opacity": {
+                        "value": 0.5,
+                        "random": true
+                    },
+                    "size": {
+                        "value": 2
+                    },
+                    "line_linked": {
+                        "enable": true,
+                        "distance": 110
+                    },
+                    "move": {
+                        "enable": true,
+                        "speed": 1
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
